@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Explore the ultimate luxury experience with Rolls-Royce Phantom. Book a test drive today for a VIP ride with unmatched comfort and elegance." />
+  <meta name="keywords" content="Rolls-Royce Phantom, luxury car rental, luxury car, VIP ride, test drive, luxury experience, Rolls-Royce" />
+  <meta name="author" content="RR-PHANTOM" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Rolls-Royce Phantom | Luxury Car Rental Experience" />
+  <meta property="og:description" content="Experience the Rolls-Royce Phantom. Book a test drive and enjoy a luxurious and elegant ride." />
+  <meta property="og:image" content="car.png" />
+  <meta property="og:url" content="https://phantom.tn" />
+  <title>Rolls-Royce Phantom | Luxury Car Rental Experience</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+  </style>
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-outline" aria-hidden="true"></div>
+
+  <!-- Loader -->
+  <div id="loader" aria-label="Loading content">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <h1 class="logo">RR-PHANTOM</h1>
+      <ul id="menu">
+        <li><a href="#welcome" class="active">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#design">Design</a></li>
+        <li><a href="#contact-us">Contact Us</a></li>
+      </ul>
+      <div class="menu-icon" aria-label="Toggle Menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Welcome Section -->
+    <section class="Welcome" id="welcome">
+      <img src="images/car.png" alt="Rolls-Royce Phantom Luxury Car" width="100%" />
+      <h1 class="phantom" id="autoShow">PHANTOM</h1>
+      <h1 class="phantom-reverse">PHANTOM</h1>
+    </section>
+
+    <!-- About Section -->
+    <section class="About" id="about">
+      <img src="images/car2.png" alt="Rolls-Royce Phantom Luxury Car Side View" id="autoShowX" />
+      <img src="images/car2 reverced.png" class="rr2" alt="Rolls-Royce logo" />
+      <div class="about">
+        <h1 id="autoShow">ABOUT US</h1>
+        <p id="autoShow">At RR-PHANTOM, we offer the ultimate luxury experience with our Rolls-Royce Phantom. Whether for a special event or a VIP ride, we provide a seamless rental service with top-tier comfort and prestige. Drive luxury. Feel excellence.</p>
+      </div>
+    </section>
+
+    <!-- Design Section -->
+    <section class="Design" id="design">
+      <div class="blur2"></div>
+      <img src="images/car3.png" alt="Rolls-Royce Phantom Exterior Design" id="autoShow" width="100%" />
+      <img src="images/car3.png" alt="Rolls-Royce Phantom Exterior Design" width="100%" class="car3-reverse" />
+      <h1 id="autoShow">ELEGANT BODY DESIGN</h1>
+      <p id="autoShow">The Rolls-Royce Phantom features a majestic design, suicide doors, and a signature grille, combining luxury and elegance with modern craftsmanship.</p>
+      <div class="blur3"></div>
+    </section>
+
+    <!-- Interior Section -->
+    <section class="Interior" id="autoShow">
+      <img src="images/interior.png" alt="Rolls-Royce Phantom Interior Design" id="autoShow" />
+      <div class="interior">
+        <h1>INTERIOR DESIGN</h1>
+        <p>The Phantom’s interior offers ultimate luxury, with handcrafted materials, Starlight Headliner, and advanced comfort for a serene ride.</p>
+      </div>
+    </section>
+
+    <!-- Engine Section -->
+    <section class="Engine" id="autoShow">
+      <div class="motor">
+        <h1>V12 ENGINE</h1>
+        <p>The Phantom’s V12 engine delivers effortless, whisper-quiet power, combined with air suspension for a smooth, "magic carpet" ride.</p>
+      </div>
+      <img src="images/motors.png" alt="Rolls-Royce Phantom V12 Engine" />
+    </section>
+
+    <!-- Performance Section -->
+    <section class="Performance" id="autoShow">
+      <img src="images/speed.png" alt="Rolls-Royce Phantom Performance" />
+      <div class="rr-power">
+        <div class="power" id="autoBlur">
+          <h3>563 HP</h3>
+          <p>Engine Power</p>
+        </div>
+        <div class="speed" id="autoBlur">
+          <h3>250 km/h</h3>
+          <p>Top Speed</p>
+        </div>
+        <div class="km" id="autoBlur">
+          <h3>5.3 sec</h3>
+          <p>0–100 km/h Acceleration</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="Video" id="autoShow">
+      <div class="blur-video"></div>
+      <div class="video">
+        <img src="images/video.png" alt="Rolls-Royce Phantom Promotional Video" />
+        <div class="circle">
+          <i class='bx bx-play' aria-label="Play Video"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="modal" aria-hidden="true">
+      <div class="modal-content">
+        <span class="close" aria-label="Close Video">&times;</span>
+        <video id="popupVideo" controls autoplay>
+          <source src="images/Introducing Phantom and Phantom Extended ｜ Rolls-Royce.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="Contact" id="contact-us">
+      <h1 id="autoShow">TEST DRIVE</h1>
+      <form id="testDriveForm">
+        <input type="text" name="firstName" placeholder="First Name" id="autoShow" required />
+        <input type="text" name="phone" placeholder="Phone" id="autoShow" required />
+        <input type="email" name="email" placeholder="Email" id="autoShow" required />
+        <div id="formMessage" style="color: red;"></div>
+        <button type="submit" id="autoShow">Submit</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <img src="images/car5.png" alt="Rolls-Royce Phantom Footer" id="autoShowX" />
+    <div id="autoShow">
+      <h1>CONTACT US</h1>
+      <p>Rent a Rolls-Royce Phantom for ultimate luxury! <span style="color: #4B0076;">Contact us now.</span></p>
+      <p class="phone">(+216) 28 463 518</p>
+      <p class="email">phantom.tn@gmail.com</p>
+      <p class="copyright">2025 All rights reserved.</p>
+    </div>
+    <div class="blur-footer"></div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
