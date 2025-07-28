@@ -16,5 +16,4 @@ Tech Stack
 - **JavaScript (Vanilla) – Interactive features and dynamic elements.
 
 📬 Contact
-If you have any feedback or collaboration ideas, feel free to contact me on LinkedIn: https://www.linkedin.com/in/yosri-bayoudh-34073027a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-www.linkedin.com or leave a comment on Behance: https://www.behance.net/yosribayoudh.
+If you have any feedback or collaboration ideas, feel free to leave a comment on Behance: https://www.behance.net/yosribayoudh.
