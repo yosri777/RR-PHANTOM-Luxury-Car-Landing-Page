@@ -11,9 +11,9 @@ Features
 - Image Gallery & Test Drive Form
 
 Tech Stack
-- **HTML5** – Semantic and well-structured markup.
-- **CSS3** – Custom styling with modern effects (gradients, transitions).
-- **JavaScript (Vanilla) – Interactive features and dynamic elements.
+- HTML5 – Semantic and well-structured markup.
+- CSS3 – Custom styling with modern effects (gradients, transitions).
+- JavaScript (Vanilla) – Interactive features and dynamic elements.
 
 📬 Contact
 If you have any feedback or collaboration ideas, feel free to leave a comment on Behance: https://www.behance.net/yosribayoudh.
